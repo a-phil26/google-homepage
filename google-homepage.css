@@ -1,17 +1,20 @@
 /* this is my google-homepage project */
-.navbar {
-    border-style: dashed;
-    border-color: black;
+nav ul {
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
 }
 nav li {
     list-style: none;
-    display: inline-block;
+    float: left;
     padding-top: 0;
-    margin: 2rem;
+    margin: 10px;
 }
 nav a {
     text-decoration: none;
-    color: black;
+
+    display; block;
+    text-align: center;
+    padding: 8px;
 }
 nav a:hover {
     color:blue;
