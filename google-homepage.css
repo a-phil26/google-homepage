@@ -1,4 +1,8 @@
 /* this is my google-homepage project */
+.navbar {
+   position:relative; 
+   text-align-last: center;
+}
 nav ul {
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
@@ -8,18 +12,37 @@ nav li {
     float: left;
     padding-top: 0;
     margin: 10px;
+    overflow: hidden;
 }
 nav a {
     text-decoration: none;
-
+    color: black;
     display; block;
-    text-align: center;
     padding: 8px;
 }
 nav a:hover {
     color:blue;
 }
 #google-logo {
-    position: relative;
-    padding: 10rem;
+    position: absolute;
+    right: 25rem;
+    top: 15rem;
+}
+.google-search {
+    position: absolute;
+    right: 25rem;
+    top: 25rem;
+}
+.footer {
+    position: absolute;
+    bottom: 1rem;
+}
+div li {
+    list-style: none;
+    float: left;
+    padding: 8px;
+}
+div a {
+    text-decoration: none;
+    color: black;
 }
