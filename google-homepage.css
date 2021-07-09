@@ -1,1 +1,22 @@
 /* this is my google-homepage project */
+.navbar {
+    border-style: dashed;
+    border-color: black;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 0;
+    margin: 2rem;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+nav a:hover {
+    color:blue;
+}
+#google-logo {
+    position: relative;
+    padding: 10rem;
+}
