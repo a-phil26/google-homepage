@@ -1,36 +1,42 @@
 /* this is my google-homepage project */
+/* adding font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+body {
+    font-family: 'Work Sans', sans-serif;
+}
 .navbar {
    position:relative; 
    text-align-last: center;
 }
 nav ul {
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    /* border: 1px solid #e7e7e7;
+    background-color: #f3f3f3; */
 }
 nav li {
     list-style: none;
-    float: left;
+    float: right;
     padding-top: 0;
     margin: 10px;
     overflow: hidden;
 }
 nav a {
     text-decoration: none;
+    text-shadow: 2px 2px 5px blue;
     color: black;
     display; block;
-    padding: 8px;
+    padding: 15px;
 }
 nav a:hover {
     color:blue;
 }
 #google-logo {
     position: absolute;
-    right: 25rem;
-    top: 15rem;
+    right: 44%;
+    top: 16rem;
 }
 .google-search {
     position: absolute;
-    right: 25rem;
+    right: 44%;
     top: 25rem;
 }
 .footer {
@@ -40,9 +46,13 @@ nav a:hover {
 div li {
     list-style: none;
     float: left;
-    padding: 8px;
+    padding: 15px;
 }
 div a {
     text-decoration: none;
     color: black;
+    text-shadow: 2px 2px 5px blue;
+}
+div a:hover {
+    color:blue;
 }
